@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+}
+:root{
+	--box-display: block;
+	--box-bg:#ffffff92;
+	--box-width:500px;
+	--title-color: blue;
+	--title-font-size: 3rem;
+	--button-bg: rgb(217, 0, 255);
+	--button-radius: 10px;
+	--button-font-size: .8rem;
+	--button-color: blue;
+	--bold-text-weight:700;
+	--bold-text-regular:300;
+	--bold-text-skinny:100;
+
+}
+button{
+	background: var(--button-bg);
+	border-radius: var(--button-radius);
+	font-size: var(--button-font-size);
+	color: var(--button-color);
+}
+.box{
+	display: var(--box-display);
+	width: var(--box-width);
+	background: var(--box-bg);
+	/* height: 300px; */
+	margin-bottom: 2rem;
+}
+.title{
+	color: var(--title-color);
+	font-size: var(--title-font-size);
+	line-height: 1.4;
+	font-weight: var(--bold-text-weight);
+	text-decoration: underline;
+	margin-bottom: 2rem;
+}
+p{
+	font-size: 1rem;
+	line-height: 1.4;
+	font-weight: var(--bold-text-regular);
+	margin-bottom: 1rem;
+}
+.box2{
+	display: var(--box-display);
+	width:var(--box-width);
+	background: var(--box-bg);
+	font-weight: var(--bold-text-regular);
+	/* height: 300px; */
+	margin-bottom: 2rem;
+}
+.box3{
+	display: var(--box-display);
+	width: var(--box-width);
+	background: var(--box-bg);
+	font-weight: var(--bold-text-regular);
+	/* height: 300px; */
+	margin-bottom: 2rem;
+}
+
+.box15 .title{
+	color: var(--title-color);
+	font-weight: var(--bold-text-regular);
+}
